@@ -6,7 +6,7 @@ const fechaNacimiento = new Date(); // <--- SOLAMENTE DEBES MODIFICAR ESTA LÍNE
 // NO MODIFICAR A PARTIR DE AQUÍ
 const fechaActual = new Date();
 
-const edad = fechaActual.getFullYear() - fechaNacimiento.getFullYear();
+let edad = fechaActual.getFullYear() - fechaNacimiento.getFullYear();
 const m = fechaActual.getMonth() - fechaNacimiento.getMonth();
 if (m < 0 || (m === 0 && fechaActual.getDate() < fechaNacimiento.getDate())) {
     edad--;
