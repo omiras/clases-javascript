@@ -24,7 +24,7 @@ class Coche {
   }
 
   // Método estaVacio
-  estaVacio() {
+  estaDepositoVacio() {
     return this.deposito == 0;
   }
 }
@@ -48,4 +48,4 @@ console.log("Coche Astra después de llenar el depósito:", astra);
 //4. Implementa un NUEVO MÉTODO en la clase Coche, que devuelve un bool. Este método se va a llamar 'estaDepositoVacio'. Debe devolver 'true' si al deposito le quedan 0 unidades de gasolina
 ibiza.deposito = 0;
 console.log("El deposito del Ibiza debería estar vacío", ibiza);
-console.log("esta vacío??: ", ibiza.estaVacio());
+console.log("esta vacío??: ", ibiza.estaDepositoVacio());
