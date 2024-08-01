@@ -12,7 +12,7 @@ class Persona {
 }
 
 const persona1 = new Persona('Ana', 28);
-const persona2 = new Persona(); // <--- MODIFICAR SOLAMENTE ESTA LÍNEA
+const persona2 = new Persona('John', 25); // <--- MODIFICAR SOLAMENTE ESTA LÍNEA
 
 const personas = [persona1, persona2];
 
